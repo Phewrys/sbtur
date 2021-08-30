@@ -9,7 +9,7 @@ const Footer = () => {
             <Container>
                 <div className="container" id="idFooter">
                     <div className="row">
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-sm-6">
                             <div className="row">
                                 <div className="col-12 col-md-2">
                                     <img className="logoM" src={logoM} alt="Logo M."/>
@@ -29,7 +29,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-sm-6">
                             <div className="row">
                                 <div className="col-12 col-md-8">
                                     <h5>Última do blog</h5>
