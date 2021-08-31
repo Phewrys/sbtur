@@ -13,7 +13,7 @@ const Novidades = () => {
                         <div className="row col-12 col-md-6 m-auto">
                             <div className="novidades-text">Cadastre-se para receber nossas notícias em primeira mão<span>!</span></div>
                             <form>
-                                <div className="form-group col-auto">
+                                <div className="form-group">
                                     <label htmlFor="id-novidades-input">SEU MELHOR E-MAIL</label>
                                     <input type="email" className="form-control" id="id-novidades-input" placeholder="Informe seu melhor e-mail" />
                                 </div>

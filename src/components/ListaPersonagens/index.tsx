@@ -65,10 +65,10 @@ const ListaPersonagens = () => {
                     <nav>
                         <ul className="pagination pagination-lg justify-content-center my-5">
                             <li>
-                                <a className="page-link" onClick={() => paginationPrevious()}><i className="fas fa-angle-left fa-4x"></i></a>
+                                <a className="page-link" onClick={() => paginationPrevious()}><i className="fas fa-angle-left fa-3x"></i></a>
                             </li>
                             <li>
-                                <a className="page-link" onClick={() => paginationNext()}><i className="fas fa-angle-right fa-4x"></i></a>
+                                <a className="page-link" onClick={() => paginationNext()}><i className="fas fa-angle-right fa-3x"></i></a>
                             </li>
                         </ul>
                     </nav>

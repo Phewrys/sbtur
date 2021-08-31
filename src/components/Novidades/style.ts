@@ -59,6 +59,7 @@ export const Container = styled.section`
     .form-group {
         width: 80%;
         max-width: 369px;
+        margin-bottom: 0px;
     }
 
     input {

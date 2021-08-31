@@ -20,6 +20,11 @@ export const Container = styled.div`
     .content-img {
         width: 239px;
         height: 272px;
+        transition: 0.3s ease-in-out;
+
+        :hover {
+            filter: brightness(50%);
+        }
 
         p {
             width: 239px;

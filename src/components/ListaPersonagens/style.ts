@@ -27,6 +27,11 @@ export const Container = styled.section`
         background-color: ${props => props.theme.colorBlack};
         border: solid 5px ${props => props.theme.colorBlack};
         border-radius: 0.25rem;
+        transition: 0.3s ease-in-out;
+
+        :hover {
+            transform: scale(1.1);
+        }
     }
 
     img {

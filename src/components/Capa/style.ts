@@ -35,6 +35,12 @@ export const Container = styled.section`
             max-height: 700px;
             width: 100vw;
             filter: brightness(50%);
+            transition: 10s ease-in-out;
+
+            :hover {
+                transform: scale(1.1);
+                filter: brightness(100%);
+            }
         }
     }
 
