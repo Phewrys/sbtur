@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import { ThemeProvider } from 'styled-components'
+import Home from './pages/Home'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const colors = {
+  colorBlack: "#000000",
+  colorGrey: "#9B9B9B",
+  colorRed: "#ED1B24",
+  colorWhite: "#FFFFFF"
 }
 
-export default App;
+const App = () => {
+  return (
+    <>
+      <ThemeProvider theme={colors}>
+        <Home/>
+      </ThemeProvider>
+    </>
+  )
+}
+export default App
