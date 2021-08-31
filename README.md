@@ -32,7 +32,7 @@
 - [x] Capa
 - [x] Personagens em Destaque
 - [x] Lista de Personagens da Marvel
-- [ ] Marvel Mastercard
+- [x] Marvel Mastercard
 - [x] Novidades
 - [x] Footer
 
