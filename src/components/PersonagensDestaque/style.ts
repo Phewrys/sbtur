@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const Container = styled.section`
     background: ${props => props.theme.colorBlack};
     padding-top: 200px;
     padding-bottom: 100px;
+    overflow: hidden;
 
     .Personagens-destaque-titulo {
         color: ${props => props.theme.colorWhite};

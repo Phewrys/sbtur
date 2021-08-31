@@ -1,46 +1,111 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Título -->
+<h1 align="center"><strong>Teste - SBTUR (Viajar Faz Bem)</strong></h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- Tópicos -->
+<h1>🏁 Tópicos</h1>
+<ul>
+    <li><a href="#sobre">Sobre o Projeto</a></li>
+    <li><a href="#funcionalidades">Funcionalidades</a></li>
+    <li><a href="#layout">Layout</a></li>
+    <li><a href="#preRequisitos">Pré-requisitos</a></li>
+    <li><a href="#tecUtilizadas">Tecnologias Utilizadas</a></li>
+    <li><a href="#autor">Autor</a></li>
+</ul>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<hr/>
+<!-- Sobre o projeto -->
+<h2 id="sobre">💻 Sobre o Projeto</h2>
+<p align="justify">Layout desenvolvido no Teste da SBTUR (Viajar Faz Bem), utilizando a Api oficial da Marvel.<p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [Protótipo](https://xd.adobe.com/spec/f6a84bef-95b8-4c0e-5126-ebac4f9aa822-8099/grid/)
+* [Api oficial da Marvel](https://developer.marvel.com/)
 
-### `yarn test`
+<hr/>
+<!-- Funcionalidades -->
+<h2 id="funcionalidades">⚙️ Funcionalidades</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Sessões:
+- [x] Header
+- [x] Capa
+- [x] Personagens em Destaque
+- [x] Lista de Personagens da Marvel
+- [ ] Marvel Mastercard
+- [x] Novidades
+- [x] Footer
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr/>
+<!-- Layout -->
+<h2 id="layout">🎨 Layout</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para acessar a aplicação, clique [aqui](https://phewrys-sbtur.herokuapp.com/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h1 align="center">
+  <img alt="Home" title="#Home" src="./src/content/img/home.jpg"/>
+</h1>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<hr/>
+<!-- Pré-requisitos -->
+<h2 id="preRequisitos">👉 Pré-requisitos</h2>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+* Git
+* Node
+* Yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Siga os passos seguintes para executar a aplicação.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Passo 1: Clone este repositório.
+$ git clone https://github.com/Phewrys/sbtur.git
 
-## Learn More
+# Passo 2: Entre na pasta sbtur.
+$ cd sbtur
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Passo 3: Instale os pacotes utilizando o Yarn.
+$ yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Passo 4: Execute a aplicação.
+$ yarn start
+
+# Pronto, a aplicação será aberta no navegador com o endereço http://localhost:3000.
+```
+
+
+<hr/>
+<!-- Tecnologias Utilizadas -->
+<h2 id="tecUtilizadas">🛠 Tecnologias Utilizadas</h2>
+
+As seguintes ferramentas foram usadas na construção do Layout:
+* React
+* Typescript
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* Axios
+* Styled-components
+* Font Awesome
+* React-slick
+* Slick-carousel
+* Yarn
+* VS Code
+
+<hr/>
+<!-- Autor -->
+<h2 id="autor">🦸 Autor</h2>
+
+
+**TIAGO ALVES DE FARIAS** @phewrys
+
+* **E-mail:** [tiago.farias@dcomp.ufs.br](tiago.farias@dcomp.ufs.br)
+
+* **Portfólio:** [https://phewrys.github.io](https://phewrys.github.io)
+
+* **LinkedIn:** [www.linkedin.com/in/phewrys](www.linkedin.com/in/phewrys)
+
+* **Lattes:** [http://lattes.cnpq.br/5858808633896823](http://lattes.cnpq.br/5858808633896823)
