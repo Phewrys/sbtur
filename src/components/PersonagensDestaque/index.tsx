@@ -32,7 +32,7 @@ const PersonagensDestaque = () => {
     return (
         <>
             <Container>
-                <div className="container" id="idMastercard">
+                <div className="container" id="idPersonagensDestaque">
                     <div className="row justify-content-center">
                         <div className="col-12 Personagens-destaque-titulo">PERSONAGENS EM DESTAQUE</div>
                         <Slider infinite={true} centerMode={true} slidesToScroll={1} slidesToShow={slidesToShow} >
