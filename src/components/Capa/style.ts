@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
 
     top: 105px;
-    max-height: 700px;
+    max-height: 613px;
     width: 100vw;
 
     div {
@@ -30,19 +30,13 @@ export const Container = styled.section`
                 left: 40px;
             }
         }
+    }
 
-        img {
-            max-height: 700px;
+    img {
+            max-height: 613px;
             width: 100vw;
             filter: brightness(50%);
-            transition: 10s ease-in-out;
-
-            :hover {
-                transform: scale(1.1);
-                filter: brightness(100%);
-            }
         }
-    }
 
     p {
         font-size: 85px;
